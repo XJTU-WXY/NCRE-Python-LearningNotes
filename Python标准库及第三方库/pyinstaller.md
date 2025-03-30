@@ -9,7 +9,7 @@ pyinstaller [options] script.py
 | 参数 | 简写 | 作用 |
 |------|------|------|
 | `--onedir` | `-D` | 生成独立文件夹，包含所有依赖文件（默认方式）。 |
-| `--onefile` | `-F` | 生成单个可执行文件，所有依赖被打包到一个 `.exe` 或 `.app` 中。 |
+| `--onefile` | ⭐`-F` | 生成单个可执行文件，所有依赖被打包到一个 `.exe` 或 `.app` 中。 |
 | `--windowed` | `-w` | **（仅 Windows/macOS）** 生成无控制台窗口的 GUI 应用（适用于 PyQt、Tkinter 等 GUI 程序）。 |
 | `--console` | `-c` | **（仅 Windows/macOS）** 生成带终端窗口的程序（默认启用）。 |
 | `--noconfirm` |  | 覆盖已有的 `build/` 和 `dist/` 目录，无需确认。 |
